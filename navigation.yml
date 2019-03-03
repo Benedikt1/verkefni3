@@ -1,0 +1,6 @@
+- name: heima
+  link: /
+- name: um
+  link: /about.html
+- name: sögur
+  link: /blog.html

@@ -1,0 +1,9 @@
+<nav>
+  {% for item in site.data.navigation %}
+  <div = class="fill"></div>
+    <a class="nava" href="{{ item.link | relative_url }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+      {{ item.name }}
+    </a>
+    <div = class="fill"></div>
+  {% endfor %}
+</nav>
